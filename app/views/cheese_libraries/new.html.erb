@@ -1,0 +1,26 @@
+<center>
+<table class="content" style="margin-bottom: 15px;">
+    	<tr>
+			<td align="center" valign="top" colspan="2">
+					<div class="headerbar"><span class="bold"><%= t 'New_cheese.title'-%></span></div>
+					&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><div align="left"><%= render :partial => "shared/required_fields" %></div></td>
+		</tr>
+		<tr valign="top">
+			<td align="left" colspan="3">
+				<%= error_messages_for :cheese, :header_message => nil, :message => nil %>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<% form_for (@cheese,{:action => "create"}, :html=> {:multipart=>true}, :method => 'post') do |f| -%>
+				  <%=  render :partial => 'form', :locals => { :f => f, :button_text => (t 'New_cheese.save')} -%>
+				<% end %>
+			</td>
+		</tr>
+		
+</table>
+</center>

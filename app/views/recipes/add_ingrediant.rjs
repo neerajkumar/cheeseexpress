@@ -1,0 +1,5 @@
+page.insert_html :bottom, 'ingrediant', "<br>"
+page.insert_html :bottom, 'ingrediant', "*Ingredient:"
+page.insert_html :bottom, 'ingrediant', "&nbsp;#{text_field_tag 'ingredient[ingredient][]'}"	
+page.insert_html :bottom, 'ingrediant', "&nbsp;*#{t 'recipes.ingredient-in-french'}:"
+page.insert_html :bottom, 'ingrediant', "&nbsp;#{text_field_tag 'ingredient[ingredient_in_french][]'}"	

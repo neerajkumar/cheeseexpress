@@ -1,0 +1,119 @@
+<center>
+<table width="100%">
+	<tr valign="top">
+			<td>
+				<table class="content">
+					<tr>
+						<td width="98%" align="right">
+							<% if !@current_user.nil? %>
+							  <%= link_to (t 'index.new'), new_cheese_library_path %> | 
+							<% end %>
+						</td>
+						<td align="right">
+							<%= link_to (t 'show.back'), cheese_libraries_url -%>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" colspan="2"><%= will_paginate(@cheeses) -%></td>
+					</tr>
+				</table>
+					<% for cheese in @cheeses%>
+					<table class="content" width="650" border="0">
+					<tr>
+						<td width="97%" align="left" colspan="3">
+							<div class="headerbar">
+								<span class="iconheader"><%= cheese.cheese_title -%></span>
+							</div>
+						</td>
+					</tr>					  
+										
+					<tr valign="top">
+						<td class="contleft" style="margin-top: 10px;" width="660">
+							<table class="contleft" border="0" width="100%" cellspacing="0" cellpadding="0">
+								<tr>
+									<td colspan = "2">
+							<span class="textboldgery"><%= I18n.locale == "en" ? cheese.description : cheese.description_in_french-%></span>
+									</td>
+								</tr>
+								<tr><td>&nbsp;</td></tr>
+								<tr >
+									<td align="left">
+										<span class="textnormal12"><%= t 'show.type-of-milk'-%>:</span>
+								    	<span class="textnormal12red"><%= I18n.locale == "en" ? cheese.milk_type.milk_type : cheese.milk_type.milk_type_in_french-%></span>
+								    </td>
+									<td align="left" class="textnormal12red">
+										<span class="textnormal12"><%=t 'show.milk'-%>: </span>
+										<span class="textnormal12red"><%= I18n.locale == "en" ? cheese.cheese_milk : cheese.milk_in_french-%></span>
+								    </td>
+							    </tr>
+								<tr valign="top">
+									<td align="left" width="60%">
+										<span class="textnormal12"><%= t 'show.region'-%>: </span>
+										<span class="textnormal12red"><%= cheese.region.region -%></span>
+								    </td>
+									<td align="left">
+										<span class="textnormal12"><%= t 'show.average-weight'-%>: </span>
+										<span class="textnormal12red"><%= cheese.average_weight.to_s -%></span>
+								    </td>
+							    </tr>
+								<tr valign="top">
+									<td align="left" colspan="">
+										<span class="textnormal12"><%= t 'show.type-of-cheese'-%>: </span>
+										<span class="textnormal12red"><%= I18n.locale == "en" ? cheese.cheese_type.cheese_type : cheese.cheese_type.cheese_type_in_french -%></span>
+								    </td>
+							    
+									<td align="left">
+										<span class="textnormal12"><%= t 'show.aoc'-%>: </span>
+										<span class="textnormal12red"><%= I18n.locale == "en" ? (cheese.aoc.to_i == 1 ? "yes" : "no") : (cheese.aoc.to_i == 1 ? "Oui" : "Non") -%></span>
+								    </td>
+							    </tr>
+								<tr valign="top">
+									<td align="left" colspan="">
+										<span class="textnormal12"><%= t 'show.fat-percentage'-%>: </span>
+										<span class="textnormal12red"><%= cheese.fat_content.to_i -%> %</span>
+								    </td>
+								<% unless cheese.maturing_period_in_english.nil? || cheese.maturing_period_in_french.nil? || cheese.maturing_period_in_french.blank? || cheese.maturing_period_in_english.blank?%>
+									<td align="left">
+										<span class="textnormal12"><%= t 'New_cheese.maturing-period-english'-%>: </span>
+										<span class="textnormal12red"><%= I18n.locale == "en" ? cheese.maturing_period_in_english : cheese.maturing_period_in_french -%></span>
+								    </td>
+								<% end %>
+							    </tr>
+						  </table>
+						</td>
+						<td id="cheese" align="right" width="30%" style="margin-left: 5px;">
+							
+							<%= image_tag cheese.cheese_image.url(:thumb), :alt => "Cheese Image", :align => "right", :size => "203x165" -%>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td align="left" class="contleft2" colspan="2" style="height: 50px;">
+							<table width="100%" border="0"><tr valign="top"><td  width="10%" id="cheese"><%= image_tag cheese.wine_image.url(:small), :alt => "Image", :size => "80x100" -%></td>
+								<td align="left"><span class="textnormal12"><%=t 'New_cheese.wine-description'-%>: </span>
+								<span class="textboldgery" valign="top" style="text-align: justify; line-height: 150%;"><%= I18n.locale == "en" ? cheese.wine_description : cheese.wine_description_in_french-%></span>
+							</td></tr></table>
+						</td>
+					</tr>
+					<tr>
+						
+					</tr>
+						<p></p>
+					<tr>
+						<% if !@current_user.nil? %>
+						  <td width="15%" align="center" colspan="2"><%= link_to (t 'index.edit'), edit_cheese_library_path(cheese) %> | <%= link_to (t 'index.delete'), cheese, :confirm => 'Are you sure?', :method => :delete %></td>
+					    <%end%>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+<% end %>
+
+<table width="100%" class="content" style="margin-bottom: 13px; margin-top: 3.5px;">
+<tr>
+	<td align="right" colspan="2"><%= will_paginate(@cheeses) -%></td>
+</tr>
+</table>
+</table>
+</center>

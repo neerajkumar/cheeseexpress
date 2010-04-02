@@ -1,0 +1,193 @@
+<center>
+<table class="content" width="100%" style="margin-bottom: 15px;">
+    	<tr>
+			<td align="center" valign="top" colspan="2">
+					<div class="headerbar"><span class="bold"><%=t 'events.edit_event'-%></span></div>
+					&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><div align="left"><%= render :partial => "shared/required_fields" %></div></td>
+		</tr>
+		<tr valign="top">
+			<td align="left" colspan="3">
+				<%= error_messages_for :event, :header_message => nil, :message => nil %>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<% form_tag ({:action => "update_event"}, :multipart => true) do -%>
+					<table class="master_form" cellpadding="0" cellspacing="0" width="90%" border="0" align="center">
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold" valign="middle"><%=t 'events.first_left_content'-%>: </span>
+							</td>
+							<td align="left" colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'first_left_content', :size => "70X4" -%>
+							</td>
+						</tr>
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold"><%=t 'events.first_left_content_in_french'-%>: </span>
+							</td>
+							<td align="left"colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'first_left_content_in_french', :size => "70X4" -%>
+							</td>
+						</tr>
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold">Second Left Content: </span>
+							</td>
+							<td align="left" colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'second_left_content', :size => "70X4" -%>
+							</td>
+						</tr>
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold">Second Left Content In French: </span>
+							</td>
+							<td align="left" colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'second_left_content_in_french', :size => "70X4" -%>
+							</td>
+						</tr>
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold"><%=t 'events.first_right_content'-%>: </span>
+							</td>
+							<td align="left" colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'first_right_content', :size => "70X4" -%>
+							</td>
+						</tr>
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold"><%=t 'events.first_right_content_in_french'-%>: </span>
+							</td>
+							<td align="left" colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'first_right_content_in_french', :size => "70X4" -%>
+							</td>
+						</tr>
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold"><%=t 'events.second_right_content'-%>: </span>
+							</td>
+							<td align="left" colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'second_right_content', :size => "70X4" -%>
+								
+							</td>
+						</tr>
+						<tr valign="middle">
+							<td align="right" width="150">
+								<span class="required"><br /><br />*</span>
+								<span class="bold"><%=t 'events.second_right_content_in_french'-%>: </span>
+							</td>
+							<td align="left" colspan="2" id="event_edit">
+								<%= textile_editor 'event', 'second_right_content_in_french', :size => "70X4" -%>
+								<%= textile_editor_initialize -%>
+							</td>
+						</tr>
+						<tr valign="top">
+							<td align="right" width="150">
+								<span class="required">*</span>
+								<span class="bold"><%=t 'events.first_image'-%>:</span>
+							</td>
+							<td align="left" colspan="2">
+								<%= file_field :event, :first_image, :accept => 'image/jpg' -%>
+								<%= t 'New_cheese.acceptable-file'-%>
+								<br />
+								<span class="bold">Image: </span><%=@event.first_image_file_name-%> is attached.
+							</td>
+							
+						</tr>
+						<tr valign="top">
+							<td align="right" width="150">
+								<span class="required">*</span>
+								<span class="bold">Second Image:</span>
+							</td>
+							<td align="left" colspan="2">
+								<%= file_field :event, :second_image, :accept => 'image/jpg' -%>
+								<%= t 'New_cheese.acceptable-file'-%>
+								<br />
+								<span class="bold">Image: </span><%=@event.second_image_file_name-%> is attached.
+							</td>
+						</tr>
+						<tr valign="top">
+							<td align="right" width="150">
+								<span class="required">*</span>
+								<span class="bold"><%=t 'events.third_image'-%>:</span>
+							</td>
+							<td align="left" colspan="2">
+								<%= file_field :event, :third_image, :accept => 'image/jpg' -%>
+								<%= t 'New_cheese.acceptable-file'-%>
+								<br />
+								<span class="bold">Image: </span><%=@event.third_image_file_name-%> is attached.
+							</td>
+						</tr>
+						<tr valign="top">
+							<td align="right" width="200">
+								<span class="required">*</span>
+								<span class="bold"><%=t 'events.fourth_image'-%>:</span>
+							</td>
+							<td align="left" colspan="2">
+								<%= file_field :event, :fourth_image, :accept => 'image/jpg' -%>
+								<%= t 'New_cheese.acceptable-file'-%>
+								<br />
+								<span class="bold">Image: </span><%=@event.fourth_image_file_name-%> is attached.
+							</td>
+						</tr>
+						<tr valign="top">
+							<td align="right" width="150">
+								<span class="required">*</span>
+								<span class="bold"><%=t 'events.fifth_image'-%>:</span>
+							</td>
+							<td align="left" colspan="2">
+								<%= file_field :event, :fifth_image, :accept => 'image/jpg' -%>
+								<%= t 'New_cheese.acceptable-file'-%>
+								<br />
+								<span class="bold">Image: </span><%=@event.fifth_image_file_name-%> is attached.
+							</td>
+						</tr>
+						<tr valign="top">
+							<td align="right" width="60">
+								<span class="required">*</span>
+								<span class="bold"><%=t 'events.sixth_image'-%>:</span>
+							</td>
+							<td align="left" colspan="2">
+								<%= file_field :event, :sixth_image, :accept => 'image/jpg' -%>
+								<%= t 'New_cheese.acceptable-file'-%>
+								<br />
+								<span class="bold">Image: </span><%=@event.sixth_image_file_name-%> is attached.
+							</td>
+						</tr>
+						<tr valign="top">
+							<td align="right" width="200">
+								<span class="required">*</span>
+								<span class="bold"><%=t 'events.seventh_image'-%>:</span>
+							</td>
+							<td align="left" colspan="2">
+								<%= file_field :event, :seventh_image, :accept => 'image/jpg' -%>
+								<%= t 'New_cheese.acceptable-file'-%>
+								<br />
+								<span class="bold">Image: </span><%=@event.seventh_image_file_name-%> is attached.
+							</td>
+						</tr>
+						<tr><td>&nbsp;</td></tr>
+						<tr valign="top">
+							<td align="center" colspan="3">
+								<%= submit_tag t 'index.edit', :disable_with => 'please wait ...'%>
+								<input name="Reset" value=<%=t 'New_cheese.reset'-%> type="reset"/>
+								<%= submit_tag t('New_cheese.cancel', :disable_with => 'please wait ...')%>
+							</td>
+						</tr>
+				</table>  
+			<% end %>
+		</td>
+	</tr>
+</table>
+</center>

@@ -1,0 +1,27 @@
+<center>
+<table class="content">
+		<tr>
+			<td align="right" colspan="2"><%= link_to "Back", retail_outlets_path -%></td>
+		</tr>
+		<tr>
+			<td align="center" valign="top" colspan="2">
+					<div class="headerbar"><span class="bold">Retail Outlet</span></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><div align="left"><%= render :partial => "shared/required_fields" %></div></td>
+		</tr>
+		<tr valign="top">
+			<td align="left" colspan="3">
+				<%= error_messages_for :retail_outlet, :header_message => nil, :message => nil %>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<% form_for (@retail_outlet,{:action => "update"}, :html=> {:multipart=>true}, :method => 'post') do |f| -%>
+				<%= render :partial => 'form', :locals => {:f => f}-%>
+				<%end%>
+			</td>
+		</tr>
+</table>
+</center>

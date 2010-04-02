@@ -1,0 +1,18 @@
+<script type="text/javascript">
+	Event.observe(window, 'load', function(event) { $('user_username').focus();} );
+</script>
+<center>
+	<div class="content" style="margin-bottom: 15px;">
+		<div align="right" style="font-size: 11px;"><%= link_to (t 'Sign_In.home-page'), homes_url -%> <%#= link_to "Forgot Password?" -%></div>
+		<% form_for(:user, @user, :url => { :action => :login, :controller => :accounts }, :method => :post) do |f| -%>
+		  <div width="50%" align="center">
+		  	<span class="login"><span align="right" class="bold"><%= t 'Sign_In.login'-%>:</span></span>
+			<span align="left"><%=f.text_field :username, {:size => 30}-%></span>
+			<span class="login"><span align="right" class="bold"><%= t 'Sign_In.password'-%>:</span></span>
+			<span align="left"><%=f.password_field :password, {:size => 30}-%></span>
+			<%=submit_tag t 'Sign_In.go'-%>
+		</div>
+		<% end %>
+		<br />
+	</div>
+</center>

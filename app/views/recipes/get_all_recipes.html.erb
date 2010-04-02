@@ -1,0 +1,26 @@
+<center>
+	<table border="1">
+		<tr valign="top">
+			<td width="40%" class="content">
+				<table border="1" width="100%">
+					<%if !@current_user.nil? && @current_user.username == 'admin'%>
+					  <tr>
+					  	<td align="right" colspan="2"><%=link_to "Add Recipe", new_recipe_path-%></td>
+					  </tr>
+					 <%end%>
+					<tr valign="top">
+						<% count = 0%>
+						<% for recipe in @recipes %>
+						  <td align="center" width="98%"><span class="bold"><%=recipe.cheese_title-%></span></td>
+						  <% count += 1 %>
+						  <% if count%3 == 0 %>
+						    </tr>
+						    <tr valign="top">
+						  <%end%>
+						<%end%>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</center>

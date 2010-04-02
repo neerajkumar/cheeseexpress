@@ -1,0 +1,45 @@
+<center>
+	<div class="confirmation"><%=flash[:notice]-%></div>
+<table class="content">
+	<% if !@current_user.nil? && @current_user.username == "admin" %>
+	<tr>
+		<td align="right"><%= link_to 'Add New', new_retail_outlet_path-%></td>
+	</tr>
+	<%end%>
+	<tr>
+		<td align="center" valign="top" colspan="2">
+			<div class="headerbar"><span class="bold">Retail Outlet</span></div>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" valign="top" colspan="2">
+			<% for retail_outlet in @retail_outlets %>
+				<table border ="0" width="90%" class="retail_outlet">
+					<% if !@current_user.nil? && @current_user.username == "admin" %>
+					<tr>
+						<td align="right" colspan="2"><%=link_to "Edit", edit_retail_outlet_path(retail_outlet)-%> | <%= link_to "Delete", retail_outlet, :confirm => 'Are you sure?', :method => :delete %></td>
+					</tr>
+					<%end%>
+			      <tr>
+			      	<td align="right" class="bold" wdith="30%">Name: </td>
+					<td align="left" width="70%"><%=retail_outlet.name-%></td>
+			      </tr>
+				  <tr>
+			      	<td align="right" class="bold" width="30%">Email: </td>
+					<td align="left" width="70%"><%=retail_outlet.email-%></td>
+			      </tr>
+				  <tr>
+			      	<td align="right" class="bold" width="30%">Address: </td>
+					<td align="left" width="70%"><%=retail_outlet.address-%></td>
+			      </tr>
+				  <tr>
+			      	<td align="right" class="bold" width="30%">Mobile: </td>
+					<td align="left" width="70%"><%=retail_outlet.mobile-%></td>
+			      </tr>
+			    </table>
+				<br>
+			<%end%>
+		</td>
+	</tr>
+</table>
+</center>

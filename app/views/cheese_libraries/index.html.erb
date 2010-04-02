@@ -1,0 +1,95 @@
+<div class="confirmation" align="center"><%=flash[:notice]-%></div>
+<table width="100%" border="0">
+		<tr valign="top">
+			<td colspan="3">
+				<table border="0" cellspacing="0" width="100%">
+					<tr valign="top">
+						<td class="headerbar" align="center" colspan="3"><span class="bold"><%= t 'layout.cheese-library'%></span></td>
+					</tr>
+					<tr>
+						<td width="100%" align="right" colspan="2" class="content">
+							<% if !@current_user.nil? %>
+							  <%= link_to (t 'index.new'), new_cheese_library_path %>
+							<% end %>
+						</td>
+					</tr>
+					<tr><td class="content">&nbsp;</td></tr>
+					<tr>
+						<td width="100%" align="center" colspan="2" class="content">
+							<% form_tag ({:action => "index"}, :html=> {:multipart=>true}, :method => 'get', :name => "formulaire") do |f| -%>
+							  <span class="bold" align="right"><%=t 'New_cheese.milk'-%>: </span>
+							  <span align="left">
+							  <% if I18n.locale == "en"%>
+							  	<span align="left"><%= select_tag("composition", "<option value="">#{t 'index.all'}</option>" + options_for_select(@milk_type_arr, @selected_milk_type), :onChange => 'formulaire.submit()') %></span>
+							  <% else %>
+							  	<span align="left"><%= select_tag("composition", options_for_select([["Tous"], ["Lait de Vache"], ["Lait de Chèvre"], ["Lait de brebis"]], @selected_milk_type.to_s), :onChange => 'formulaire.submit()') %></span>
+							  <%end%>
+							  </span>
+							  <span class="bold" align="right">pâte: </span>
+							  <% if I18n.locale == "en" %>
+							  
+							  	<span align="left"><%= select_tag("pate", "<option value="">#{t 'index.all'}</option>" + options_for_select(@cheese_type_arr, @selected_cheese_type), :onChange => 'formulaire.submit()') %></span>
+							  <% else %>
+							  	<span align="left"><%= select_tag("pate", options_for_select([["Tous"], ["Pâte molle"],["Pâte molle à croûte fleurie"],["Pâte persillée"],["Pâte molle à croûte lavée"],["Pâte pressée cuite"],["Pâte pressée non cuite"]], @selected_cheese_type), :onChange => 'formulaire.submit()') %></span>
+							  <% end %>
+							  <span class="bold" align="right"><%=t 'New_cheese.region'-%>: </span>
+							  <span align="left"><%= select_tag("region", "<option value="">#{t 'index.all'}</option>" + options_for_select(@region_arr, @selected_region), :onChange => 'formulaire.submit()') %></span>
+							<% end %>
+						</td>
+					</tr>
+					<tr><td class="content">&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td class="contentbox">
+				<table border="0" cellspacing="0" width="100%" align="left">
+					<tr valign="top">
+						<% for @cheezes in @cheeses%>
+						<% if !@cheezes.blank? %>
+						<td>
+							<table width=293 align="center" border="0">
+								<tr valign="top">
+									<td align="center" class="headerbar">
+										<span class="bold">
+										<% if @cheezes[0].milk_type.milk_type == "Cow Milk" %>
+										   <%= t 'index.cow-milk' -%><br />
+                                           <img src="/images/cow.JPG" height="50" width="50" alt="cow.jpg" />
+										<% elsif @cheezes[0].milk_type.milk_type == "Goat Milk" %>
+										<%= t 'index.goat-milk' -%><br />
+										<img src="/images/goat.JPG" height="50" width="50" alt="goat.jpg" />
+										<% elsif @cheezes[0].milk_type.milk_type == "Ewe Milk" %>
+										<%= t 'index.ewe-milk' -%><br />
+										<img src="/images/ewe.JPG" height="50" width="50" alt="Ewe.jpg" />
+										<% end %> 
+										</span>
+                                  </td>
+					            </tr>
+								<tr valign="top">
+									<td>
+										<table width="100%" border="0" class="content" style="margin-top: -5px;">
+											<% for cheese in @cheezes %>
+											<tr>
+												<td width="40%" align="center" class="content">
+													<%= link_to cheese.cheese_title, cheese -%>
+												</td>
+												<% if !@current_user.nil? %>
+												<td width="60%" align="right">
+													<%= link_to (t 'index.edit'), edit_cheese_library_path(cheese) %> | <%= link_to (t 'index.delete'), cheese, :confirm => 'Are you sure?', :method => :delete %>
+												</td>
+											    <%end%>
+											</tr>
+											<%end%>
+											<tr><td>&nbsp;</td></tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<% end %>
+						<% end %>
+					</tr>
+				</table>
+			<td>
+		</tr>
+</table>

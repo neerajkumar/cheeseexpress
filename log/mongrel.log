@@ -1,0 +1,1404 @@
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** ** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** ** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** ** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** ** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:16: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** ** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** /home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+Mongrel 1.1.5 available at 0.0.0.0:12012/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/recipes/edit.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/edit.html.erb:18: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** ** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** ** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/edit.html.erb:18: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/recipes/edit.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/edit.html.erb:18: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/edit.html.erb:18: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/new.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12012
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12012
+** Writing PID file to log/mongrel.pid
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/edit.html.erb:18: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: don't put space before argument parentheses
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36
+/home/genusync/etc/rails_apps/cheeseexpress/app/views/cheese_libraries/index.html.erb:19: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/helpers/capture_helper.rb:36

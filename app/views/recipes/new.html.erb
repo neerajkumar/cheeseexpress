@@ -1,0 +1,31 @@
+<center>
+<table class="content" width="100%" style="margin-bottom: 15px;">
+    	<tr>
+			<td align="center" valign="top" colspan="2">
+					<div class="headerbar"><span class="bold"><%=t 'recipes.add_recipe'-%></span></div>
+					&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><div align="left"><%= render :partial => "shared/required_fields" %></div></td>
+		</tr>
+		<tr>
+			<td align="left">
+						<%=flash[:error]-%>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="left" colspan="3">
+				<%= error_messages_for :recipe, :header_message => nil, :message => nil %>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<% form_for(@recipe, :url => {:action => "create"}, :html=>  {:multipart => true}, :method => 'post') do |f| -%>
+				  <%=  render :partial => 'form', :locals => { :f => f, :button_text => (t 'New_cheese.save')} -%>
+				<% end %>
+			</td>
+		</tr>
+		
+</table>
+</center>

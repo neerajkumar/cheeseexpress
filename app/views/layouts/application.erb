@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.cheeseexpress.co.in/images/logo.jpg">
+	<title><%= t('layout.title') -%><%= @title-%></title>
+	<%= stylesheet_link_tag 'style' %>
+	<%  javascript_includes = [:defaults] -%>
+	<%= javascript_include_tag(*javascript_includes) %>
+</head>
+	<body>
+		<!-- Login for administrator begins -->
+			  <table width="98%" border="0" align="center">
+			  	<% if @current_user.nil? %>
+				  <td align="right" width="100%" class="welcome" colspan="8">
+				  <%#= link_to (t 'layout.sign-in'), sign_in_accounts_path, :style=> "color: #fff" -%>
+				  </td>
+				  <% else %>
+				  <tr>
+				  	<td align="right" width="100%" class="welcome" colspan="8">
+				  		<%= t 'layout.welcome' -%><%= @current_user.username -%> | <%= link_to (t 'layout.logout'), {:action => :logout, :controller => :accounts}, :style=> "color: #fff"-%>  <%#=link_to "Change Password", cheese_libraries_url, :style => "color: #fff"-%></div>
+				  	</td>
+			     <% end %>
+				 </tr>
+				 <!-- Login for administrator end -->
+		    </table>
+		<div  style="overflow: hidden; position: absolute; width: 640px; height: 145px; z-index: 100; left: 0pt; top: 135px; visibility: hidden;">  </div>
+		<div style="left: -1000px; top: 148px; visibility: hidden;" id="dhtmltooltip" align="center"><%=t 'message.recipe-message'-%></div>
+		
+		<%= javascript_include_tag "cheese_layout.js" %>
+		
+		<div id="bodycontainer">
+			
+			<div id="header">
+				<div class="logo"><a href="http://www.cheeseexpress.co.in"><img src="/images/logo.jpg" width="135" height="135" border="0" /></a>
+					</div>
+				<div class="menu" style="width:750px;">
+				<table cellpadding="0" cellspacing="0" border="0" width="100%" border="1">
+					<tr><td width="10" align="left" valign="top" id="menuiteam"><img src="/images/cur_left.gif" width="10" height="25" /></td>
+					    <td align="left" valign="middle" class="menubar">
+					    	
+							
+							
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" id="menuiteam">
+      							<tr>
+        <td align="center" valign="middle" class="select"=><%= link_to (t 'layout.home'), homes_url-%></td>
+        <td align="center" valign="middle">|</td>
+        <td align="center" valign="middle"><%=link_to (t 'layout.about_us'), about_us_url-%></td>
+        <td align="center" valign="middle">|</td>
+        <td align="center" valign="middle"><span onMouseOver="ddrivetip('<%=t 'message.recipe-message'-%>', '#fbca8a');" onMouseOut="hideddrivetip()"><%=link_to (t 'layout.recipe'), recipes_url-%></span></td>
+        <td align="center" valign="middle">|</td>
+        <td align="center" valign="middle"><span  onMouseOver="ddrivetip('<%=t 'message.library-message'-%>', '#fbca8a');" onMouseOut="hideddrivetip()"><%=link_to (t 'layout.cheese-library'), cheese_libraries_url-%></span></td>
+        <td align="center" valign="middle">|</td>
+        <td align="center" valign="middle"><span><%= link_to (t 'layout.events'), events_url-%></span></td>
+        <td align="center" valign="middle">|</td>
+        <td align="center" valign="middle"><span><%= link_to (t 'layout.partners'), partners_url-%></span></td>
+        <td align="center" valign="middle">|</td>
+        <td align="center" valign="middle"><span><%= link_to (t 'layout.contact-us'), contact_us_url-%></span></td>
+<td align="center" valign="middle"><%= link_to '<img src="/images/uk_flag.gif" alt="UK" width="37" height="18" border="0">', "#{session[:action_path]}/?locale=en" -%></td>
+        <td align="center" valign="middle"><%= link_to '<img src="/images/french_flag.gif" width="30" height="19" border="0">', "#{session[:action_path]}/?locale=fr"-%></td>
+      							</tr>
+    						</table>
+							
+							
+					    	<!--div id="menuiteam">
+					    		<span><%= link_to "Home Page", homes_url-%></span>|
+								<span onMouseOver="ddrivetip('Presentation and explanation of our cheese tasting sessions.', '#fbca8a');" onMouseOut="hideddrivetip()"><%=link_to "Recipes", recipes_url-%></span> |
+								<span  onMouseOver="ddrivetip('All you want to know on French cheeses.', '#fbca8a');" onMouseOut="hideddrivetip()"><%=link_to "Cheese Library", cheese_libraries_url-%></span> |
+								<span><%= link_to "Events", events_url-%></span> |
+								<span><%= link_to "Retail Outlet", retail_outlets_url-%></span>|
+								<span><%= link_to "Partner", partners_url-%></span>|
+								<span><%= link_to "Contact Us", contact_us_url-%></span>
+								<a href="#"><img src="/images/uk_flag.gif" alt="UK" width="30" height="19" border="0"/></a> 
+								<a href="#"><img src="/images/french_flag.gif" width="30" height="19" border="0"/></a>
+							</div-->
+						</td>
+						<td width="10" align="left" valign="top"><img src="/images/cur_right.gif" width="10" height="25" /></td>
+					</tr>
+				</table>
+				</div>
+			</div>
+			
+			<div class="banner"><img src="/images/banner.jpg" width="919" height="217" /></div>
+			<div id="container">
+				<div class="contentbox">
+					<%= yield -%>
+				</div>
+
+       <!-- Footer Begins -->
+	   <div class="footer"><span style="float:right; padding:25px 5px 0 0;">&copy; <%=t 'footer.first'-%> <a href="http://www.cheeseexpress.co.in" style="color: #fff; font-weight: normal;">cheeseexpress.co.in</a> | Powered By <a href="http://www.genusync.com"><font color="#ffffff">GenuSync</font></a></span></div>
+		<!-- Footer End -->
+	        </div>
+	</div>
+	</body>
+</html>

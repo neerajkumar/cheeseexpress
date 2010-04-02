@@ -1,0 +1,54 @@
+<div class="confirmation" align="center"><%=flash[:notice]-%></div>
+<div >
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="left" valign="top"><div style="float:left; width:655px;" class="indexbg">
+                <div class="textnormal_12">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>
+			<% if I18n.locale == "en"%><img src="/images/home_text.jpg" alt="Home" width="636" height="272" />
+			<% else %>
+                      <img src="/images/home_text_french.jpg" alt="Home" width="636" height="272" /><% end %></td>
+                    </tr>
+                    <tr>
+                      <td align="right" valign="middle" id ="more"><%=link_to (t 'home.read-more'), about_us_url, :style => "font-weight: normal;"-%></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td align="center"><img src="/images/homebanner.jpg" alt="Products" width="594" height="112" align="middle" /></td>
+                    </tr>
+                  </table>
+                  <p><br />
+                      <br />
+                  </p>
+                </div>
+            </div></td>
+            <td align="left" valign="top" id = "rightsidebar"><div style="float:left; margin:0 0 0 10px; width:208px">
+                <div>
+                  <div class="headerbar" valign="middle"><span class="textbold"><%=t 'home.title'-%></span></div>
+                  <div style="background:#f4e2c3; height:220px; margin:0px; padding:5px 5px 0 18px; font-size:11px; text-align:justify;">
+                    <p><%=t 'home.cheese_club_and_events'-%></p>
+                    <div style="float:right; margin-top: 15px;"><%=link_to (t 'home.more'), events_url-%></div>
+                  </div>
+                  <br>
+                  <div class="headerbar" valign="middle" style="clear:both"><span class="textbold"><%=t 'layout.contact-us'-%></span></div>
+                  <div style="background:#f4e2c3; height:100px; margin:0px; padding:5px 5px 0 18px; font-size:11px; color:#8b0102"> La Fromagerie Fresh Food Pvt. Ltd.<br />
+                    No. 88, 11th Cross, 1st Stage<br />
+                    Indiranagar, Bangalore 560 038<br />
+                    Ph: 080 2521 9675<br />
+                    <a href="http://www.cheeseexpress.co.in">www.cheeseexpress.co.in</a> </div>
+                </div>
+            </div></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="left" valign="top">&nbsp;</td>
+          </tr>
+         
+        </table>
+        </div>

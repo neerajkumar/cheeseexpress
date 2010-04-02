@@ -1,0 +1,52 @@
+<script type="text/javascript">
+	Event.observe(window, 'load', function(event) { $('retail_outlet_name').focus();} );
+</script>
+
+<table border="0" width="90%" align="center">
+	<tr valign="top"><td>&nbsp;</td></tr>
+	<tr valign="top">
+		<td align="right" width="30%">
+			<span class="required">*</span>
+			<span class="bold">Name:</span>
+		</td>
+		<td align="left" width="70%">
+			<%= f.text_field :name-%>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td align="right" width="30%">
+			<span class="required">*</span>
+			<span class="bold">Email:</span>
+		</td>
+		<td align="left" width="70%">
+			<%= f.text_field :email-%>
+		</td>
+	</tr>
+	<tr>
+		<td align="right" width="30%">
+			<span class="required">*</span>
+			<span class="bold">Address:</span>
+		</td>
+		<td align="left" width="70%">
+			<%= f.text_area(:address, :size => "80x3") %>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td align="right" width="30%">
+			<span class="required">*</span>
+			<span class="bold">Mobile:</span>
+		</td>
+		<td align="left" width="70%">
+			<%= f.text_field :mobile-%>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr valign="top">
+		<td align="center" colspan="2">
+			<%= f.submit "Save", :disable_with => 'please wait ...'%>
+			<input name="Reset" type="reset"/>
+		</td>
+	</tr>
+</table>

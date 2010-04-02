@@ -1,0 +1,51 @@
+<center>
+	<div align="center"><span class="confirmation"><%=flash[:notice]-%></span></div>
+	<table border="0" class="content" width="100%" style="margin-bottom: 15px;">
+		<tr valign="top">
+			<td class="headerbar" align="center" colspan="3"><span class="bold"><%= t 'layout.recipe'%></span></td>
+		</tr>
+		<%if !@current_user.nil? && @current_user.username == 'admin'%>
+		  <tr>
+		  	<td align="right" colspan="3"><%=link_to (t 'recipes.add_recipe'), new_recipe_path-%></td>
+		  </tr>
+		<%end%>
+		<% if @recipes.nil? || @recipes.blank? %>
+			<tr valign="top">
+			  <td><h2 align="center"><%=t 'recipes.no-recipe-found'-%></h2></td>
+			</tr>
+		<% else %>
+		<tr valign="middle">
+		  <% count = 0%>
+		  <% for recipe in @recipes %>
+		    <td align="center" width="33.3%" class ="panier">
+		    	<table border="0" width="100%">
+		    		<tr>
+		    			<td align="center" width="60%">
+		    			  <span class="bold">
+		    				<%= link_to recipe.cheese_title, recipe-%>
+						  </span>
+		    			</td>
+						<td align="center" width="40%">
+							<%= link_to image_tag(recipe.recipecheese_image.url(:thumb), :alt => "Recipe Image", :size => "80x80"), recipe -%>
+						</td>
+					</tr>
+					<%if !@current_user.nil? && @current_user.username == 'admin'%>
+					<tr>
+						<td align="center" colspan="2">
+							<%= link_to (t 'index.edit'), edit_recipe_path(recipe) %> | <%= link_to (t 'index.delete'), recipe, :confirm => 'Are you sure?', :method => :delete %>
+						</td>
+					</tr>
+					<%end%>
+		    	</table>
+			</td>
+			<% count += 1 %>
+			<% if count%3 == 0 %>
+			  </tr>
+				<tr valign="top">
+			<%end%>
+		  <%end%>
+		  </tr>
+		<% end %>
+		<tr><td>&nbsp;</td></tr>
+	</table>
+</center>

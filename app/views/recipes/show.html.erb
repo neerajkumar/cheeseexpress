@@ -1,0 +1,100 @@
+<center>
+<table width="100%">
+	<tr valign="top">
+			<td>
+				<table class="content">
+					<tr>
+						<td width="98%" align="right">
+							<% if !@current_user.nil? %>
+							  <%= link_to (t 'index.new'), new_recipe_path %> | 
+							<% end %>
+						</td>
+						<td align="right">
+							<%= link_to (t 'show.back'), recipes_url -%>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" colspan="2"><%= will_paginate(@recipes) -%></td>
+					</tr>
+				</table>
+				<% for recipe in @recipes%>
+				  <table class="content" width="100%" border="0" align="center">
+					<tr>
+						<td width="97%" align="left" colspan="3">
+							<div class="headerbar">
+								<span class="iconheader"><%= recipe.cheese_title -%></span>
+							</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td align="right" width="25%" id = "cheese">
+							<%= image_tag recipe.recipecheese_image.url(:thumb), :alt => "Recipe Image", :size => "203x165" -%>
+						</td>
+						<td width="75%">
+							<table width="100%" border="0">
+								<tr>
+									<td align="right" class="bold" width="25%"><%=t 'recipes.preperation-time'-%> : </td>
+									<td align="left"><%=recipe.preperation_time.to_i-%> <%=recipe.prep_time-%></td>
+								</tr>
+								<tr>
+									<td align="right" class="bold"><%=t 'recipes.cooking-time'-%> : </td>
+									<td align="left"><%=recipe.cooking_time.to_i-%> <%= recipe.cook_time-%></td>
+								</tr>
+								<tr valign="top">
+									<td align="right"><span class="bold"><%= t 'recipes.ingredient' -%> : </span></td>
+									<td align="left">
+										<%= I18n.locale == "en" ? " For " : " Pour " -%><span><%=recipe.number_of_persons_for-%></span><%= I18n.locale == "en" ? " persons" : " Personnes" -%>
+										<p><% if I18n.locale == "en" %>
+											<% tmp = recipe.ingredient.split("\,").collect {|nstr| nstr.to_s} unless recipe.ingredient.nil?
+				                 						tmp.each do |c| %>
+													<%= c -%>
+													<br>
+												<% end%>
+										<%else%>
+											<% tmp = recipe.ingredient_in_french.split("\,").collect {|nstr| nstr.to_s} unless recipe.ingredient_in_french.nil?
+				                 						tmp.each do |c| %>
+													<%= c -%>
+													<br>
+												<% end%>
+										<%end%></p></td>
+								</tr>
+								<tr valign="top">
+									<td align="right"><span class="bold"><%=t 'recipes.method'-%> : </span></td>
+									<td align="left" style="text-align:justify; line-height: 150%;"><%=I18n.locale == "en" ? recipe.method : recipe.method_in_french-%></td>
+								</tr>
+								
+								<% if !recipe.remark.blank? && !recipe.remark_in_french.blank? %>
+								<tr valign="top">								
+									<td align="right"><span class="bold"><%= t 'recipes.remark'-%> : </span></td>
+									<td align="left" style="text-align:justify;"><%=I18n.locale == "en" ? recipe.remark : recipe.remark_in_french-%></td>
+								</tr>
+								<%end%>
+						</table>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td align="left" class="contleft2" colspan="2" style="height: 50px;">
+						<table width="100%" border="0"><tr valign="top"><td  width="10%" id="cheese"><%= image_tag recipe.recipewine_image.url(:small), :alt => "Wine Image", :size => "80x100" -%></td>
+							<td valign="middle"><span class="bold">Wine Description: </span>
+								<span style="text-align:justify; line-height: 150%;"><%= I18n.locale == "en" ? recipe.wine_description : recipe.wine_description_in_french-%></span>
+							</td></tr></table>
+					</td>
+				</tr>
+				<%if !@current_user.nil? && @current_user.username == 'admin'%>
+				<tr>
+					<td align="center" colspan="2">
+						<%= link_to (t 'index.edit'), edit_recipe_path(recipe) %> | <%= link_to (t 'index.delete'), recipe, :confirm => 'Are you sure?', :method => :delete %>
+					</td>
+				</tr>
+				<%end%>
+			</table>
+			</td>
+	</tr>
+			<% end %>
+			<table width="100%" class="content" style="margin-bottom: 15px; margin-top: 2px;" align="center">
+	<tr>
+		<td align="right" colspan="2" class="content"><%= will_paginate(@recipes) -%></td>
+	</tr>
+	</table>
+</table>				
+</center>
