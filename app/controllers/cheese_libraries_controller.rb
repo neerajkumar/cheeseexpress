@@ -12,7 +12,6 @@
     set_show_session
     set_index_session
 
-    get_arrays
     @cheeses = Array.new
     @milk_type = MilkType.find_by_milk_type(params[:composition]) || MilkType.find_by_milk_type_in_french(params[:composition]) unless params[:composition].nil? || params[:composition] == "All" || params[:composition].blank?
     @cheese_type = CheeseType.find_by_cheese_type(params[:pate]) || CheeseType.find_by_cheese_type_in_french(params[:pate])
@@ -97,7 +96,6 @@
       @title = "Add a New Cheese"
       set_index_session
       set_show_session
-      get_arrays
       @cheese = CheeseLibrary.new
 
     respond_to do |format|
@@ -116,7 +114,7 @@
       @title = "Edit Cheese"
       set_index_session
       set_show_session
-      get_arrays
+
       @cheese = CheeseLibrary.find_by_id(params[:id])
       @selected_milk_type = (I18n.locale == 'en' ? MilkType.find_by_id(@cheese.milk_type_id).milk_type : MilkType.find_by_id(@cheese.milk_type_id).milk_type_in_french)
       @selected_region = Region.find_by_id(@cheese.region_id).region
@@ -131,8 +129,6 @@
   # POST /cheese_libraries
   # POST /cheese_libraries.xml
   def create
-    get_arrays
-    
     @cheese = CheeseLibrary.new(params[:cheese_library])
 
     respond_to do |format|
@@ -153,8 +149,6 @@
   # PUT /cheese_libraries/1
   # PUT /cheese_libraries/1.xml
   def update
-    get_arrays
-    
     @cheese = CheeseLibrary.find_by_id(params[:id])
 
     respond_to do |format|
@@ -193,25 +187,6 @@
   ## ----------------
 
   private
-  
-  # get the arrays for milk types, cheese types and regions
-  def get_arrays
-    @milk_types = MilkType.find(:all)
-    @cheese_types = CheeseType.find(:all)
-    @regions = Region.find(:all)
-    @milk_type_arr =[]
-    @cheese_type_arr = []
-    @region_arr = []
-    @milk_types.each do |milk_type|
-      @milk_type_arr << (I18n.locale == "en" ? [milk_type.milk_type] : [milk_type.milk_type_in_french])
-    end
-    @cheese_types.each do |cheese_type|
-      @cheese_type_arr << (I18n.locale == "en" ? [cheese_type.cheese_type] : [cheese_type.cheese_type_in_french])
-    end
-    @regions.each do |region|
-      @region_arr << [region.region]
-    end
-  end
   
   # set the session value of index page
   def set_index_session
