@@ -1,3 +1,18 @@
+http://www.cheeseexpress.co.in is an application developed by me for an Indian Client to demonstrate the cheese of his shop. 
+This is a very basic ruby on rails application with a little bit modifications. It also comprises the beautiful UIs. 
+
+Steps to run the application:
+
+1. configure the config/database.yml.
+2. run the command rake gems:install ==> it mainly ask for mislav_will-paginate and RedCloth gems. Therefore install these two gems first.
+3. run the command rake db:create
+4. run the command rake db:migrate
+5. Now start your ror app server to run the application.
+
+The application is also having the use of various plugins as textile_editor_helper, paperclip, defunkt-acts_as_textiled etc.
+
+
+
 # whenever you get the error: failed to build gem native extension >>> 'nmake' etc use
 
-sudo gem install RedCloth --platform=mswin32
+sudo gem install RedCloth --platform=mswin32 

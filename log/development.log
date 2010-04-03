@@ -1,0 +1,475 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#edit (for 127.0.0.1 at 2010-04-03 03:18:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;35;1mCheeseLibrary Load (1.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = '1') LIMIT 1[0m
+  [4;36;1mMilkType Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`id` = 9) LIMIT 1[0m
+  [4;36;1mCheeseType Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`id` = 2) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/edit
+Rendered shared/_required_fields (1.0ms)
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` [0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` [0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` [0m
+Rendered cheese_libraries/_form (25.0ms)
+Completed in 246ms (View: 68, DB: 17) | 200 OK [http://localhost/cheese_libraries/1/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#update (for 127.0.0.1 at 2010-04-03 03:19:01) [PUT]
+  Parameters: {"cheese_library"=>{"cheese_milk"=>"hnshs", "cheese_title"=>"hgnbc", "wine_description"=>"k", "description_in_french"=>"jsj;", "maturing_period_in_french"=>"asxzcfre", "milk_in_french"=>"asxz12", "wine_description_in_french"=>"k920`", "maturing_period_in_english"=>"aq123w", "fat_content"=>"12", "average_weight"=>"12", "description"=>"h", "aoc"=>"Non"}, "commit"=>"Mettre â jour", "cheese"=>{"region"=>"Corse", "milk"=>"Lait de Chèvre", "type"=>"Pâte pressée non cuite"}, "authenticity_token"=>"IMFs8f3yaL+BWfwXLmC6zZP6mpg1Hsnpv4kdn3WNOaU=", "id"=>"1"}
+  [4;35;1mUser Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mMilkType Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;36;1mMilkType Load (1.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type_in_french` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;35;1mCheeseType Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = 'Pâte pressée non cuite') LIMIT 1[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = 'Pâte pressée non cuite') LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` = 'Corse') LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT `cheese_libraries`.id FROM `cheese_libraries` WHERE (`cheese_libraries`.`cheese_title` = BINARY 'hgnbc' AND `cheese_libraries`.id <> 1) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Update (0.0ms)[0m   [0mUPDATE `cheese_libraries` SET `updated_at` = '2010-04-03 10:19:01', `cheese_type_id` = 3 WHERE `id` = 1[0m
+[paperclip] Saving attachments.
+[paperclip] Saving attachments.
+  [4;36;1mSQL (64.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/cheese_libraries
+Completed in 179ms (DB: 87) | 302 Found [http://localhost/cheese_libraries/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:19:02) [GET]
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` IS NULL) LIMIT 1[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` IS NULL) LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` IS NULL) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseLibrary Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+Completed in 138ms (View: 53, DB: 17) | 200 OK [http://localhost/cheese_libraries]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:19:16) [GET]
+  Parameters: {"locale"=>"en"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` IS NULL) LIMIT 1[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` IS NULL) LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (1.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` IS NULL) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (1.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseLibrary Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+Completed in 131ms (View: 46, DB: 19) | 200 OK [http://localhost/cheese_libraries/?locale=en]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#show (for 127.0.0.1 at 2010-04-03 03:19:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = 1) [0m
+  [4;35;1mMilkType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (id <= '1' AND milk_type_id = 2) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/show
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+  [4;35;1mRegion Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`id` = 9) [0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`id` = 3) [0m
+Completed in 618ms (View: 504, DB: 18) | 200 OK [http://localhost/cheese_libraries/1]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#edit (for 127.0.0.1 at 2010-04-03 03:19:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = '1') LIMIT 1[0m
+  [4;35;1mMilkType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) LIMIT 1[0m
+  [4;35;1mRegion Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`id` = 9) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/edit
+Rendered shared/_required_fields (0.0ms)
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mRegion Load (1.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+Rendered cheese_libraries/_form (19.0ms)
+Completed in 138ms (View: 37, DB: 21) | 200 OK [http://localhost/cheese_libraries/1/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#update (for 127.0.0.1 at 2010-04-03 03:19:44) [PUT]
+  Parameters: {"cheese_library"=>{"cheese_milk"=>"hnshs", "cheese_title"=>"hgnbc", "wine_description"=>"k", "description_in_french"=>"jsj;", "maturing_period_in_french"=>"asxzcfre", "milk_in_french"=>"asxz12", "wine_description_in_french"=>"k920`", "maturing_period_in_english"=>"aq123w", "fat_content"=>"12", "average_weight"=>"12", "description"=>"h", "aoc"=>"No"}, "commit"=>"Update", "cheese"=>{"region"=>"Corse", "milk"=>"Goat Milk", "type"=>"Soft pate"}, "authenticity_token"=>"IMFs8f3yaL+BWfwXLmC6zZP6mpg1Hsnpv4kdn3WNOaU=", "id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMilkType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type` = 'Goat Milk') LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = 'Soft pate') LIMIT 1[0m
+  [4;35;1mRegion Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (1.0ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`region` = 'Corse') LIMIT 1[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT `cheese_libraries`.id FROM `cheese_libraries` WHERE (`cheese_libraries`.`cheese_title` = BINARY 'hgnbc' AND `cheese_libraries`.id <> 1) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Update (0.0ms)[0m   [0;1mUPDATE `cheese_libraries` SET `updated_at` = '2010-04-03 10:19:44', `aoc` = 'No', `cheese_type_id` = 2 WHERE `id` = 1[0m
+[paperclip] Saving attachments.
+[paperclip] Saving attachments.
+  [4;35;1mSQL (30.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/cheese_libraries
+Completed in 178ms (DB: 46) | 302 Found [http://localhost/cheese_libraries/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:19:46) [GET]
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCheeseType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` IS NULL) LIMIT 1[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` IS NULL) LIMIT 1[0m
+  [4;35;1mRegion Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (1.0ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`region` IS NULL) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Load (1.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;36;1mMilkType Load (1.0ms)[0m   [0;1mSELECT * FROM `milk_types` [0m
+  [4;35;1mMilkType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` [0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` [0m
+  [4;36;1mCheeseLibrary Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+Completed in 130ms (View: 46, DB: 21) | 200 OK [http://localhost/cheese_libraries]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#show (for 127.0.0.1 at 2010-04-03 03:19:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = 1) [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (id <= '1' AND milk_type_id = 2) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (1.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`id` = 9) [0m
+  [4;36;1mCheeseType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`id` = 2) [0m
+Completed in 125ms (View: 58, DB: 20) | 200 OK [http://localhost/cheese_libraries/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#show (for 127.0.0.1 at 2010-04-03 03:20:01) [GET]
+  Parameters: {"id"=>"1", "locale"=>"fr"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;35;1mCheeseLibrary Load (1.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = 1) [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (id <= '1' AND milk_type_id = 2) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/show
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (1.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`id` = 9) [0m
+  [4;36;1mCheeseType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`id` = 2) [0m
+Completed in 128ms (View: 59, DB: 20) | 200 OK [http://localhost/cheese_libraries/1/?locale=fr]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#edit (for 127.0.0.1 at 2010-04-03 03:20:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;35;1mCheeseLibrary Load (1.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = '1') LIMIT 1[0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (1.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`id` = 9) LIMIT 1[0m
+  [4;36;1mCheeseType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`id` = 2) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/edit
+Rendered shared/_required_fields (1.0ms)
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` [0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` [0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` [0m
+Rendered cheese_libraries/_form (20.0ms)
+Completed in 138ms (View: 39, DB: 21) | 200 OK [http://localhost/cheese_libraries/1/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#update (for 127.0.0.1 at 2010-04-03 03:20:17) [PUT]
+  Parameters: {"cheese_library"=>{"cheese_milk"=>"hnshs", "cheese_title"=>"hgnbc", "wine_description"=>"k", "description_in_french"=>"jsj;", "maturing_period_in_french"=>"asxzcfre", "milk_in_french"=>"asxz12", "wine_description_in_french"=>"k920`", "maturing_period_in_english"=>"aq123w", "fat_content"=>"12", "average_weight"=>"12", "description"=>"h", "aoc"=>"Non"}, "commit"=>"Mettre â jour", "cheese"=>{"region"=>"Corse", "milk"=>"Lait de Chèvre", "type"=>"Pâte pressée cuite"}, "authenticity_token"=>"IMFs8f3yaL+BWfwXLmC6zZP6mpg1Hsnpv4kdn3WNOaU=", "id"=>"1"}
+  [4;35;1mUser Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;36;1mMilkType Load (1.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type_in_french` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = 'Pâte pressée cuite') LIMIT 1[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = 'Pâte pressée cuite') LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` = 'Corse') LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT `cheese_libraries`.id FROM `cheese_libraries` WHERE (`cheese_libraries`.`cheese_title` = BINARY 'hgnbc' AND `cheese_libraries`.id <> 1) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Update (0.0ms)[0m   [0mUPDATE `cheese_libraries` SET `updated_at` = '2010-04-03 10:20:18', `aoc` = 'Non', `cheese_type_id` = 1 WHERE `id` = 1[0m
+[paperclip] Saving attachments.
+[paperclip] Saving attachments.
+  [4;36;1mSQL (49.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/cheese_libraries
+Completed in 199ms (DB: 70) | 302 Found [http://localhost/cheese_libraries/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:20:19) [GET]
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` IS NULL) LIMIT 1[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` IS NULL) LIMIT 1[0m
+  [4;36;1mRegion Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` IS NULL) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (98.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseLibrary Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+Completed in 251ms (View: 64, DB: 119) | 200 OK [http://localhost/cheese_libraries]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:20:27) [GET]
+  Parameters: {"region"=>"", "composition"=>"", "pate"=>"Pâte pressée cuite"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = 'Pâte pressée cuite') LIMIT 1[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = 'Pâte pressée cuite') LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (1.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` = '') LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1 AND cheese_type_id = 1) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (1.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2 AND cheese_type_id = 1) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3 AND cheese_type_id = 1) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseLibrary Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mMilkType Load (1.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+Completed in 133ms (View: 43, DB: 25) | 200 OK [http://localhost/cheese_libraries?composition=&pate=P%C3%A2te+press%C3%A9e+cuite&region=]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:20:34) [GET]
+  Parameters: {"region"=>"", "composition"=>"", "pate"=>"Pâte molle"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = 'Pâte molle') LIMIT 1[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = 'Pâte molle') LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (0.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` = '') LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1 AND cheese_type_id = 2) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (1.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2 AND cheese_type_id = 2) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3 AND cheese_type_id = 2) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+Completed in 115ms (View: 32, DB: 16) | 200 OK [http://localhost/cheese_libraries?composition=&pate=P%C3%A2te+molle&region=]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:20:42) [GET]
+  Parameters: {"region"=>"", "composition"=>"Lait de Vache", "pate"=>"Pâte molle"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mMilkType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type` = 'Lait de Vache') LIMIT 1[0m
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type_in_french` = 'Lait de Vache') LIMIT 1[0m
+  [4;36;1mCheeseType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = 'Pâte molle') LIMIT 1[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = 'Pâte molle') LIMIT 1[0m
+  [4;35;1mRegion Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`region` = '') LIMIT 1[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1 AND cheese_type_id = 2) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` [0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+Completed in 115ms (View: 21, DB: 15) | 200 OK [http://localhost/cheese_libraries?composition=Lait+de+Vache&pate=P%C3%A2te+molle&region=]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:20:48) [GET]
+  Parameters: {"region"=>"", "composition"=>"", "pate"=>"Pâte molle"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = 'Pâte molle') LIMIT 1[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = 'Pâte molle') LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (1.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` = '') LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1 AND cheese_type_id = 2) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2 AND cheese_type_id = 2) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3 AND cheese_type_id = 2) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;35;1mMilkType Load (1.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+Completed in 163ms (View: 81, DB: 19) | 200 OK [http://localhost/cheese_libraries?composition=&pate=P%C3%A2te+molle&region=]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:20:55) [GET]
+  Parameters: {"region"=>"", "composition"=>"", "pate"=>""}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = '') LIMIT 1[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = '') LIMIT 1[0m
+  [4;36;1mRegion Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (1.0ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` = '') LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (1.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (1.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (1.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseLibrary Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mMilkType Load (1.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+Completed in 129ms (View: 45, DB: 21) | 200 OK [http://localhost/cheese_libraries?composition=&pate=&region=]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:21:01) [GET]
+  Parameters: {"region"=>"", "composition"=>"Lait de Chèvre", "pate"=>""}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mMilkType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type_in_french` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;36;1mCheeseType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = '') LIMIT 1[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = '') LIMIT 1[0m
+  [4;35;1mRegion Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (1.0ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`region` = '') LIMIT 1[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` [0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseLibrary Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 2) [0m
+Completed in 169ms (View: 72, DB: 19) | 200 OK [http://localhost/cheese_libraries?composition=Lait+de+Ch%C3%A8vre&pate=&region=]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.0.1 at 2010-04-03 03:21:41) [GET]
+  Parameters: {"region"=>"Auvergne", "composition"=>"Lait de Chèvre", "pate"=>""}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mMilkType Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mMilkType Load (1.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;35;1mMilkType Load (0.0ms)[0m   [0mSELECT * FROM `milk_types` WHERE (`milk_types`.`milk_type_in_french` = 'Lait de Chèvre') LIMIT 1[0m
+  [4;36;1mCheeseType Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `cheese_types`[0m
+  [4;35;1mCheeseType Load (0.0ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` = '') LIMIT 1[0m
+  [4;36;1mCheeseType Load (0.0ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` = '') LIMIT 1[0m
+  [4;35;1mRegion Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (0.0ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`region` = 'Auvergne') LIMIT 1[0m
+  [4;35;1mCheeseLibrary Load (0.0ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2 AND region_id = 3) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+  [4;36;1mMilkType Load (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` [0m
+  [4;35;1mCheeseType Load (1.0ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (1.0ms)[0m   [0;1mSELECT * FROM `regions` [0m
+Completed in 115ms (View: 19, DB: 16) | 200 OK [http://localhost/cheese_libraries?composition=Lait+de+Ch%C3%A8vre&pate=&region=Auvergne]
