@@ -121,8 +121,8 @@
       @selected_milk_type = (I18n.locale == 'en' ? MilkType.find_by_id(@cheese.milk_type_id).milk_type : MilkType.find_by_id(@cheese.milk_type_id).milk_type_in_french)
       @selected_region = Region.find_by_id(@cheese.region_id).region
       @selected_cheese_type = (I18n.locale == 'en' ? CheeseType.find_by_id(@cheese.cheese_type_id).cheese_type : CheeseType.find_by_id(@cheese.cheese_type_id).cheese_type_in_french)
-      @cheese.aoc = "yes" if @cheese.aoc == "1"
-      @cheese.aoc = "no" if @cheese.aoc == "0"
+
+      @selected_aoc = (@cheese.aoc == ('Yes' || 'Oui') ? (t 'aoc-yes') : (t 'aoc-no'))
     else
       return(redirect_to(cheese_libraries_path))
     end

@@ -63,8 +63,9 @@
 								    </td>
 							    
 									<td align="left">
+
 										<span class="textnormal12"><%= t 'show.aoc'-%>: </span>
-										<span class="textnormal12red"><%= I18n.locale == "en" ? (cheese.aoc.to_i == 1 ? "yes" : "no") : (cheese.aoc.to_i == 1 ? "Oui" : "Non") -%></span>
+										<span class="textnormal12red"><%= aoc(cheese) -%></span>
 								    </td>
 							    </tr>
 								<tr valign="top">

@@ -147,7 +147,7 @@
 			<span class="bold"><%= t 'New_cheese.aoc'-%>: </span>
 		</td>
 		<td align="left" width="70%">
-			<%= f.select :aoc, [[I18n.locale == "en" ? "Yes" : "Oui"], [I18n.locale == "en" ? "No" : "Non"]] %>
+		<%= select_tag("cheese_library[aoc]", options_for_select(aoc_array(I18n.locale), @selected_aoc)) %>	
 		</td>
 	</tr>
 	<tr valign="top">

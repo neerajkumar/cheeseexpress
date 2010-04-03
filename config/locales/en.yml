@@ -143,3 +143,6 @@ en:
 
   previous: "previous"
   next: "next"
+ 
+  aoc-yes: "Yes"
+  aoc-no: "No"
