@@ -19,21 +19,15 @@
 							<% form_tag ({:action => "index"}, :html=> {:multipart=>true}, :method => 'get', :name => "formulaire") do |f| -%>
 							  <span class="bold" align="right"><%=t 'New_cheese.milk'-%>: </span>
 							  <span align="left">
-							  <% if I18n.locale == "en"%>
-							  	<span align="left"><%= select_tag("composition", "<option value="">#{t 'index.all'}</option>" + options_for_select(@milk_type_arr, @selected_milk_type), :onChange => 'formulaire.submit()') %></span>
-							  <% else %>
-							  	<span align="left"><%= select_tag("composition", options_for_select([["Tous"], ["Lait de Vache"], ["Lait de Chèvre"], ["Lait de brebis"]], @selected_milk_type.to_s), :onChange => 'formulaire.submit()') %></span>
-							  <%end%>
+							  	<span align="left"><%= select_tag("composition", "<option value="">#{t 'index.all'}</option>" + options_for_select(milk_type_list(I18n.locale), @selected_milk_type), :onChange => 'formulaire.submit()') %></span>
 							  </span>
 							  <span class="bold" align="right">pâte: </span>
-							  <% if I18n.locale == "en" %>
 							  
-							  	<span align="left"><%= select_tag("pate", "<option value="">#{t 'index.all'}</option>" + options_for_select(@cheese_type_arr, @selected_cheese_type), :onChange => 'formulaire.submit()') %></span>
-							  <% else %>
-							  	<span align="left"><%= select_tag("pate", options_for_select([["Tous"], ["Pâte molle"],["Pâte molle à croûte fleurie"],["Pâte persillée"],["Pâte molle à croûte lavée"],["Pâte pressée cuite"],["Pâte pressée non cuite"]], @selected_cheese_type), :onChange => 'formulaire.submit()') %></span>
-							  <% end %>
+							  	<span align="left"><%= select_tag("pate", "<option value="">#{t 'index.all'}</option>" + options_for_select(cheese_type_list(I18n.locale), @selected_cheese_type), :onChange => 'formulaire.submit()') %></span>
 							  <span class="bold" align="right"><%=t 'New_cheese.region'-%>: </span>
-							  <span align="left"><%= select_tag("region", "<option value="">#{t 'index.all'}</option>" + options_for_select(@region_arr, @selected_region), :onChange => 'formulaire.submit()') %></span>
+
+							  <span align="left"><%= select_tag("region", "<option value="">#{t 'index.all'}</option>" + options_for_select(region_list(), @selected_region), :onChange => 'formulaire.submit()') %></span>
+
 							<% end %>
 						</td>
 					</tr>

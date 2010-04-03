@@ -76,25 +76,15 @@
 		</td>
 	</tr>
 
-	<% if I18n.locale == "en"%> 
 	<tr valign="top">
 		<td align="right" width="30%">
 			<span class="bold"><%= t 'New_cheese.type-of-milk'-%>:</span>
 		</td>
 		<td align="left" width="70%">
-			<%= select_tag("cheese[milk]", options_for_select(@milk_type_arr, @selected_milk_type)) %>
+			<%= select_tag("cheese[milk]", options_for_select(milk_type_list(I18n.locale), @selected_milk_type)) %>
 		</td>
 	</tr>
-    <% else %>
-      <tr valign="top">
-		<td align="right" width="30%">
-			<span class="bold"><%= t 'New_cheese.type-of-milk'-%>:</span>
-		</td>
-		<td align="left" width="70%">
-			<%= select_tag("cheese[milk]", options_for_select([["Lait de Vache"], ["Lait de Chèvre"], ["Lait de brebis"]], @selected_milk_type)) %>
-		</td>
-	</tr>
-    <% end %>
+
 	<tr valign="top">
 		<td align="right" width="30%">
 			<span class="required">*</span>
@@ -104,6 +94,7 @@
 			<%= f.text_field :cheese_milk, {:size => 30, :maxlength => 50} %>
 		</td>
 	</tr>
+
 	<tr valign="top">
 		<td align="right" width="30%">
 			<span class="required">*</span>
@@ -118,7 +109,7 @@
 			<span class="bold"><%= t 'New_cheese.region'-%>: </span>
 		</td>
 		<td align="left" width="70%">
-			<%= select_tag("cheese[region]", options_for_select(@region_arr, @selected_region)) %>
+			<%= select_tag("cheese[region]", options_for_select(region_list(), @selected_region)) %>
 		</td>
 	</tr>
 	<tr valign="top">
@@ -135,13 +126,10 @@
 			<span class="bold"><%= t 'New_cheese.type-of-cheese'-%>: </span>
 		</td>
 		<td align="left" width="70%">
-		<% if I18n.locale == "en" %>
-			<span align="left"><%= select_tag("cheese[type]", options_for_select(@cheese_type_arr, @selected_cheese_type), :onChange => 'formulaire.submit()') %></span>
-		<% else %>
-			<span align="left"><%= select_tag("cheese[type]", options_for_select([["Pâte molle"],["Pâte molle à croûte fleurie"],["Pâte persillée"],["Pâte molle à croûte lavée"],["Pâte pressée cuite"],["Pâte pressée non cuite"]], @selected_cheese_type)) %></span>
-		<% end %>
+			<span align="left"><%= select_tag("cheese[type]", options_for_select(cheese_type_list(I18n.locale), @selected_cheese_type), :onChange => 'formulaire.submit()') %></span>
 		</td>
 	</tr>
+
 	<tr valign="top">
 		<td align="right" width="30%">
 			<span class="bold"><%= t 'New_cheese.aoc'-%>: </span>
