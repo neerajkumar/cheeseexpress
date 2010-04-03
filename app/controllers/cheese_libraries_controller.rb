@@ -10,7 +10,6 @@
   def index
     @title = t "index.title"
     set_show_session
-    set_index_session
 
     @cheeses = Array.new
     @milk_type = MilkType.find_by_milk_type(params[:composition]) || MilkType.find_by_milk_type_in_french(params[:composition]) unless params[:composition].nil? || params[:composition] == "All" || params[:composition].blank?
@@ -76,7 +75,6 @@
   def show
     @cheeze = CheeseLibrary.find(params[:id])
     @title = @cheeze.cheese_title
-    #set_index_session
     session[:cheese_order] = "id desc"
     session[:current_page] = get_page(params[:page]) if params[:page]
     @cheese = CheeseLibrary.find(:all, :conditions => ["id <= ? AND milk_type_id = ?", params[:id], @cheeze.milk_type.id], :order => session[:cheese_order])
@@ -94,7 +92,6 @@
   def new
     if !@current_user.nil?
       @title = "Add a New Cheese"
-      set_index_session
       set_show_session
       @cheese = CheeseLibrary.new
 
@@ -112,7 +109,6 @@
   def edit
     if !@current_user.nil?
       @title = "Edit Cheese"
-      set_index_session
       set_show_session
 
       @cheese = CheeseLibrary.find_by_id(params[:id])
@@ -187,12 +183,6 @@
   ## ----------------
 
   private
-  
-  # set the session value of index page
-  def set_index_session
-    session[:order] = nil
-    session[:cheese_current_page] = nil
-  end
   
   # set the session values of show page
   def set_show_session
