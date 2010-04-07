@@ -101,7 +101,7 @@
 						<p></p>
 					<tr>
 						<% if !@current_user.nil? %>
-						  <td width="15%" align="center" colspan="2"><%= link_to (t 'index.edit'), edit_cheese_library_path(cheese) %> | <%= link_to (t 'index.delete'), cheese, :confirm => 'Are you sure?', :method => :delete %></td>
+						  <td width="15%" align="center" colspan="2"><%= link_to (t 'index.edit'), edit_cheese_library_path(:id => cheese) %> | <%= link_to (t 'index.delete'), cheese_library_url(:id => cheese), :confirm => 'Are you sure?', :method => :delete %></td>
 					    <%end%>
 					</tr>
 					<tr><td>&nbsp;</td></tr>

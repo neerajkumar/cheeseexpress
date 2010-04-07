@@ -33,7 +33,7 @@
 						<td width="75%">
 							<table width="100%" border="0">
 								<tr>
-									<td align="right" class="bold" width="25%"><%=t 'recipes.preperation-time'-%> : </td>
+									<td align="right" class="bold" width="27%"><%=t 'recipes.preperation-time'-%> : </td>
 									<td align="left"><%=recipe.preperation_time.to_i-%> <%=recipe.prep_time-%></td>
 								</tr>
 								<tr>
@@ -83,7 +83,7 @@
 				<%if !@current_user.nil? && @current_user.username == 'admin'%>
 				<tr>
 					<td align="center" colspan="2">
-						<%= link_to (t 'index.edit'), edit_recipe_path(recipe) %> | <%= link_to (t 'index.delete'), recipe, :confirm => 'Are you sure?', :method => :delete %>
+						<%= link_to (t 'index.edit'), edit_recipe_path(:id => recipe) %> | <%= link_to (t 'index.delete'), recipe_url(:id => recipe), :confirm => 'Are you sure?', :method => :delete %>
 					</td>
 				</tr>
 				<%end%>

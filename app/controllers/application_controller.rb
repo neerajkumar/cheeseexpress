@@ -43,17 +43,17 @@ class ApplicationController < ActionController::Base
     return cur_page
   end
   
+  def default_url_options(options = {})
+    logger.debug "default_url_options is passed options: #{options.inspect}\n"
+    {:locale => I18n.locale}
+  end
   
-  before_filter :set_locale, :set_path
+  before_filter :set_locale
   
   private
   def set_locale
-    session[:locale] = params[:locale] ? params[:locale] : session[:locale]
-    I18n.locale = session[:locale].blank? ? "en" : session[:locale]
-  end
-  
-  def set_path
-    session[:action_path] = url_for(:controller => params[:controller], :action => params[:action], :id => params[:id] ) 
+    # if params[:locale] is nil then I18n.default_locale will be used
+    I18n.locale = params[:locale]
   end
   
 end

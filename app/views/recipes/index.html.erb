@@ -22,17 +22,17 @@
 		    		<tr>
 		    			<td align="center" width="60%">
 		    			  <span class="bold">
-		    				<%= link_to recipe.cheese_title, recipe-%>
+		    				<%= link_to recipe.cheese_title, recipe_url(:id => recipe)-%>
 						  </span>
 		    			</td>
 						<td align="center" width="40%">
-							<%= link_to image_tag(recipe.recipecheese_image.url(:thumb), :alt => "Recipe Image", :size => "80x80"), recipe -%>
+							<%= link_to image_tag(recipe.recipecheese_image.url(:thumb), :alt => "Recipe Image", :size => "80x80"), recipe_url(:id => recipe) -%>
 						</td>
 					</tr>
 					<%if !@current_user.nil? && @current_user.username == 'admin'%>
 					<tr>
 						<td align="center" colspan="2">
-							<%= link_to (t 'index.edit'), edit_recipe_path(recipe) %> | <%= link_to (t 'index.delete'), recipe, :confirm => 'Are you sure?', :method => :delete %>
+							<%= link_to (t 'index.edit'), edit_recipe_path(:id => recipe) %> | <%= link_to (t 'index.delete'), recipe_url(:id => recipe), :confirm => 'Are you sure?', :method => :delete %>
 						</td>
 					</tr>
 					<%end%>

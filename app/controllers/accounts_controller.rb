@@ -5,7 +5,7 @@ class AccountsController < ApplicationController
     
   end
   
-  # POST /login
+  # GET /login
   def login
     @continue = params[:continue]
     if request.post?

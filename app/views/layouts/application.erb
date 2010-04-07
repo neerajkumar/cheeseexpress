@@ -58,8 +58,8 @@
         <td align="center" valign="middle"><span><%= link_to (t 'layout.partners'), partners_url-%></span></td>
         <td align="center" valign="middle">|</td>
         <td align="center" valign="middle"><span><%= link_to (t 'layout.contact-us'), contact_us_url-%></span></td>
-<td align="center" valign="middle"><%= link_to '<img src="/images/uk_flag.gif" alt="UK" width="37" height="18" border="0">', "#{session[:action_path]}/?locale=en" -%></td>
-        <td align="center" valign="middle"><%= link_to '<img src="/images/french_flag.gif" width="30" height="19" border="0">', "#{session[:action_path]}/?locale=fr"-%></td>
+<td align="center" valign="middle"><%= link_to '<img src="/images/uk_flag.gif" alt="UK" width="37" height="18" border="0">', url_for(:controller => params[:controller], :action => params[:action], :id => params[:id], :locale => "en") -%></td>
+        <td align="center" valign="middle"><%= link_to '<img src="/images/french_flag.gif" width="30" height="19" border="0">', url_for(:controller => params[:controller], :action => params[:action], :id => params[:id], :locale => "fr")-%></td>
       							</tr>
     						</table>
 							

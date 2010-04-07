@@ -65,11 +65,11 @@
 											<% for cheese in @cheezes %>
 											<tr>
 												<td width="40%" align="center" class="content">
-													<%= link_to cheese.cheese_title, cheese -%>
+													<%= link_to cheese.cheese_title, cheese_library_url(:id => cheese) -%>
 												</td>
 												<% if !@current_user.nil? %>
 												<td width="60%" align="right">
-													<%= link_to (t 'index.edit'), edit_cheese_library_path(cheese) %> | <%= link_to (t 'index.delete'), cheese, :confirm => 'Are you sure?', :method => :delete %>
+													<%= link_to (t 'index.edit'), edit_cheese_library_path(:id => cheese) %> | <%= link_to (t 'index.delete'), cheese_library_url(:id => cheese), :confirm => 'Are you sure?', :method => :delete %>
 												</td>
 											    <%end%>
 											</tr>

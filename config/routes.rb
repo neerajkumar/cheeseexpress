@@ -2,22 +2,22 @@ ActionController::Routing::Routes.draw do |map|
 	
   map.root :controller => 'homes'
   
-  map.resources :about_us
+  map.resources :about_us, :path_prefix => '/:locale'
 
-  map.resources :recipes, :collection => {:get_all_recipes => :get, :add_ingrediant => :get}
-  map.resources :partners
+  map.resources :recipes, :collection => {:get_all_recipes => :get, :add_ingrediant => :get}, :path_prefix => '/:locale'
+  map.resources :partners, :path_prefix => '/:locale'
 
-  map.resources :events, :collection => {:edit_event => :get, :update_event => :post}
+  map.resources :events, :collection => {:edit_event => :get, :update_event => :post}, :path_prefix => '/:locale'
 
-  map.resources :contact_us
+  map.resources :contact_us, :path_prefix => '/:locale'
 
-  map.resources :homes
+  map.resources :homes, :path_prefix => '/:locale'
 
-  map.resources :retail_outlets
+  map.resources :retail_outlets, :path_prefix => '/:locale'
 
   map.resource :accounts, :collection => {:login => :get, :logout => :get, :sign_in => :get}
 
-  map.resources :cheese_libraries, :collection => {:cheese_library => :get}
+  map.resources :cheese_libraries, :collection => {:cheese_library => :get}, :path_prefix => '/:locale'
 
   # The priority is based upon order of creation: first created -> highest priority.
 
