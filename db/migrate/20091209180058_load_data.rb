@@ -5,6 +5,7 @@ class LoadData < ActiveRecord::Migration
     down
 
    # Load data into users table
+    User.new(:username => "admin", :password => "@delicious").save!
     
 
     # Load data into milk_types table
