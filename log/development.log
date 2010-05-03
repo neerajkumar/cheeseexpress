@@ -1,0 +1,457 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#update (for 127.0.2.1 at 2010-05-04 00:45:43) [PUT]
+  Parameters: {"commit"=>"Cancel", "authenticity_token"=>"bUH0SSnosnPXQ5sREFBCaos+x44Z01gP0gGBLAgpKuc=", "id"=>"1", "recipe"=>{"number_of_persons_for"=>"2", "prep_time"=>"hour", "remark"=>"Remark in english", "method"=>"The method in english", "remark_in_french"=>"Remark in french", "cheese_title"=>"Recipe 1", "wine_description"=>"Wine Description in english", "method_in_french"=>"The method in french", "preperation_time"=>"3", "wine_description_in_french"=>"Wine Description in french", "cooking_time"=>"4", "cook_time"=>"min"}, "locale"=>"en", "ingredient"=>{"ingredient_in_french"=>["a", ""], "ingredient"=>["2", ""]}}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mRecipe Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (0.1ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 1) [0m
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+Redirected to http://cheeseexpress.local/en/recipes
+Completed in 16ms (DB: 3) | 302 Found [http://cheeseexpress.local/en/recipes/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#index (for 127.0.2.1 at 2010-05-04 00:45:43) [GET]
+  Parameters: {"locale"=>"en"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mRecipe Load (1.2ms)[0m   [0;1mSELECT * FROM `recipes` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering recipes/index
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"new", :use_route=>:new_recipe, :controller=>"recipes", :only_path=>true}
+  [4;35;1mRecipe Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+default_url_options is passed options: {:action=>"show", :use_route=>:recipe, :controller=>"recipes", :id=>#<Recipe id: 1, cheese_title: "Recipe 1", wine_description: "Wine Description in english", wine_description_in_french: "Wine Description in french", number_of_persons_for: 2, preperation_time: 3.0, prep_time: "hour", cooking_time: 4.0, cook_time: "min", remark: "Remark in english", method_in_french: "The method in french", remark_in_french: "Remark in french", ingredient: "2,", ingredient_in_french: "a,", created_at: "2010-05-03 19:11:50", updated_at: "2010-05-03 19:11:50", recipecheese_image_file_name: "maria-sharapova-41a.jpg", recipecheese_image_content_type: "image/jpeg", recipecheese_image_file_size: 132947, recipecheese_image_updated_at: "2010-05-03 19:11:50", recipewine_image_file_name: "maria-sharapova-42a.jpg", recipewine_image_content_type: "image/jpeg", recipewine_image_file_size: 153208, recipewine_image_updated_at: "2010-05-03 19:11:49", method: "The method in english">, :only_path=>false}
+default_url_options is passed options: {:action=>"show", :use_route=>:recipe, :controller=>"recipes", :id=>#<Recipe id: 1, cheese_title: "Recipe 1", wine_description: "Wine Description in english", wine_description_in_french: "Wine Description in french", number_of_persons_for: 2, preperation_time: 3.0, prep_time: "hour", cooking_time: 4.0, cook_time: "min", remark: "Remark in english", method_in_french: "The method in french", remark_in_french: "Remark in french", ingredient: "2,", ingredient_in_french: "a,", created_at: "2010-05-03 19:11:50", updated_at: "2010-05-03 19:11:50", recipecheese_image_file_name: "maria-sharapova-41a.jpg", recipecheese_image_content_type: "image/jpeg", recipecheese_image_file_size: 132947, recipecheese_image_updated_at: "2010-05-03 19:11:50", recipewine_image_file_name: "maria-sharapova-42a.jpg", recipewine_image_content_type: "image/jpeg", recipewine_image_file_size: 153208, recipewine_image_updated_at: "2010-05-03 19:11:49", method: "The method in english">, :only_path=>false}
+default_url_options is passed options: {:action=>"edit", :use_route=>:edit_recipe, :controller=>"recipes", :id=>#<Recipe id: 1, cheese_title: "Recipe 1", wine_description: "Wine Description in english", wine_description_in_french: "Wine Description in french", number_of_persons_for: 2, preperation_time: 3.0, prep_time: "hour", cooking_time: 4.0, cook_time: "min", remark: "Remark in english", method_in_french: "The method in french", remark_in_french: "Remark in french", ingredient: "2,", ingredient_in_french: "a,", created_at: "2010-05-03 19:11:50", updated_at: "2010-05-03 19:11:50", recipecheese_image_file_name: "maria-sharapova-41a.jpg", recipecheese_image_content_type: "image/jpeg", recipecheese_image_file_size: 132947, recipecheese_image_updated_at: "2010-05-03 19:11:50", recipewine_image_file_name: "maria-sharapova-42a.jpg", recipewine_image_content_type: "image/jpeg", recipewine_image_file_size: 153208, recipewine_image_updated_at: "2010-05-03 19:11:49", method: "The method in english">, :only_path=>true}
+default_url_options is passed options: {:action=>"show", :use_route=>:recipe, :controller=>"recipes", :id=>#<Recipe id: 1, cheese_title: "Recipe 1", wine_description: "Wine Description in english", wine_description_in_french: "Wine Description in french", number_of_persons_for: 2, preperation_time: 3.0, prep_time: "hour", cooking_time: 4.0, cook_time: "min", remark: "Remark in english", method_in_french: "The method in french", remark_in_french: "Remark in french", ingredient: "2,", ingredient_in_french: "a,", created_at: "2010-05-03 19:11:50", updated_at: "2010-05-03 19:11:50", recipecheese_image_file_name: "maria-sharapova-41a.jpg", recipecheese_image_content_type: "image/jpeg", recipecheese_image_file_size: 132947, recipecheese_image_updated_at: "2010-05-03 19:11:50", recipewine_image_file_name: "maria-sharapova-42a.jpg", recipewine_image_content_type: "image/jpeg", recipewine_image_file_size: 153208, recipewine_image_updated_at: "2010-05-03 19:11:49", method: "The method in english">, :only_path=>false}
+default_url_options is passed options: {:action=>:logout, :controller=>:accounts, :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:about_us, :controller=>"about_us", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+default_url_options is passed options: {:locale=>"en", :action=>"index", :controller=>"recipes", :id=>nil, :only_path=>true}
+default_url_options is passed options: {:locale=>"fr", :action=>"index", :controller=>"recipes", :id=>nil, :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:retail_outlets, :controller=>"retail_outlets", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+Completed in 46ms (View: 31, DB: 3) | 200 OK [http://cheeseexpress.local/en/recipes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.2.1 at 2010-05-04 00:45:43) [GET]
+  Parameters: {"1272913910"=>nil}
+
+ActionController::RoutingError (No route matches "/system/recipecheese_images/1/thumb/maria-sharapova-41a.jpg" with {:method=>:get}):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecipesController#show (for 127.0.2.1 at 2010-05-04 00:45:45) [GET]
+  Parameters: {"id"=>"1", "locale"=>"en"}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mRecipe Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (0.1ms)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 1) [0m
+  [4;36;1mRecipe Load (0.1ms)[0m   [0;1mSELECT * FROM `recipes` WHERE (id <= '1') ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering recipes/show
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"new", :use_route=>:new_recipe, :controller=>"recipes", :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {:action=>"edit", :use_route=>:edit_recipe, :controller=>"recipes", :id=>#<Recipe id: 1, cheese_title: "Recipe 1", wine_description: "Wine Description in english", wine_description_in_french: "Wine Description in french", number_of_persons_for: 2, preperation_time: 3.0, prep_time: "hour", cooking_time: 4.0, cook_time: "min", remark: "Remark in english", method_in_french: "The method in french", remark_in_french: "Remark in french", ingredient: "2,", ingredient_in_french: "a,", created_at: "2010-05-03 19:11:50", updated_at: "2010-05-03 19:11:50", recipecheese_image_file_name: "maria-sharapova-41a.jpg", recipecheese_image_content_type: "image/jpeg", recipecheese_image_file_size: 132947, recipecheese_image_updated_at: "2010-05-03 19:11:50", recipewine_image_file_name: "maria-sharapova-42a.jpg", recipewine_image_content_type: "image/jpeg", recipewine_image_file_size: 153208, recipewine_image_updated_at: "2010-05-03 19:11:49", method: "The method in english">, :only_path=>true}
+default_url_options is passed options: {:action=>"show", :use_route=>:recipe, :controller=>"recipes", :id=>#<Recipe id: 1, cheese_title: "Recipe 1", wine_description: "Wine Description in english", wine_description_in_french: "Wine Description in french", number_of_persons_for: 2, preperation_time: 3.0, prep_time: "hour", cooking_time: 4.0, cook_time: "min", remark: "Remark in english", method_in_french: "The method in french", remark_in_french: "Remark in french", ingredient: "2,", ingredient_in_french: "a,", created_at: "2010-05-03 19:11:50", updated_at: "2010-05-03 19:11:50", recipecheese_image_file_name: "maria-sharapova-41a.jpg", recipecheese_image_content_type: "image/jpeg", recipecheese_image_file_size: 132947, recipecheese_image_updated_at: "2010-05-03 19:11:50", recipewine_image_file_name: "maria-sharapova-42a.jpg", recipewine_image_content_type: "image/jpeg", recipewine_image_file_size: 153208, recipewine_image_updated_at: "2010-05-03 19:11:49", method: "The method in english">, :only_path=>false}
+default_url_options is passed options: {:action=>:logout, :controller=>:accounts, :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:about_us, :controller=>"about_us", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+default_url_options is passed options: {:locale=>"en", :action=>"show", :controller=>"recipes", :id=>"1", :only_path=>true}
+default_url_options is passed options: {:locale=>"fr", :action=>"show", :controller=>"recipes", :id=>"1", :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:retail_outlets, :controller=>"retail_outlets", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+Completed in 60ms (View: 35, DB: 3) | 200 OK [http://cheeseexpress.local/en/recipes/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.2.1 at 2010-05-04 00:45:45) [GET]
+  Parameters: {"1272913909"=>nil}
+
+
+Processing ApplicationController#index (for 127.0.2.1 at 2010-05-04 00:45:45) [GET]
+  Parameters: {"1272913910"=>nil}
+
+ActionController::RoutingError (No route matches "/system/recipewine_images/1/small/maria-sharapova-42a.jpg" with {:method=>:get}):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+ActionController::RoutingError (No route matches "/system/recipecheese_images/1/thumb/maria-sharapova-41a.jpg" with {:method=>:get}):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#index (for 127.0.2.1 at 2010-05-04 00:45:51) [GET]
+  Parameters: {"locale"=>"en"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseType Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.1ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type` IS NULL) LIMIT 1[0m
+  [4;35;1mCheeseType Load (0.1ms)[0m   [0mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`cheese_type_in_french` IS NULL) LIMIT 1[0m
+  [4;36;1mRegion Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `regions`[0m
+  [4;35;1mRegion Load (0.1ms)[0m   [0mSELECT * FROM `regions` WHERE (`regions`.`region` IS NULL) LIMIT 1[0m
+  [4;36;1mCheeseLibrary Load (0.3ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 1) ORDER BY id desc[0m
+  [4;35;1mCheeseLibrary Load (0.2ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 2) ORDER BY id desc[0m
+  [4;36;1mCheeseLibrary Load (0.2ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (milk_type_id = 3) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/index
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"new", :use_route=>:new_cheese_library, :controller=>"cheese_libraries", :only_path=>true}
+default_url_options is passed options: {:action=>"index", :only_path=>true}
+  [4;35;1mMilkType Load (0.2ms)[0m   [0mSELECT * FROM `milk_types` [0m
+  [4;36;1mMilkType Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `milk_types`[0m
+  [4;35;1mCheeseType Load (0.1ms)[0m   [0mSELECT * FROM `cheese_types` [0m
+  [4;36;1mRegion Load (0.2ms)[0m   [0;1mSELECT * FROM `regions` [0m
+  [4;35;1mCheeseLibrary Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mMilkType Load (0.1ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 1) [0m
+default_url_options is passed options: {:action=>"show", :use_route=>:cheese_library, :controller=>"cheese_libraries", :id=>#<CheeseLibrary id: 2, cheese_title: "Cheese 1", wine_description: "hello this is cheese wine description in English", milk_type_id: 1, cheese_type_id: 2, region_id: 18, deleted_at: nil, cheese_milk: "pasturized milk", average_weight: "12.00", aoc: "Yes", fat_content: 13.0, created_at: "2010-05-03 17:51:21", updated_at: "2010-05-03 17:51:21", description_in_french: "hello this is cheese description in French", wine_description_in_french: "hello this is cheese wine description in French", milk_in_french: "pasturized milk in french", cheese_image_file_name: "mar24v.jpg", cheese_image_content_type: "image/jpeg", cheese_image_file_size: 150864, cheese_image_updated_at: "2010-05-03 17:51:20", wine_image_file_name: "mar30v.jpg", wine_image_content_type: "image/jpeg", wine_image_file_size: 242127, wine_image_updated_at: "2010-05-03 17:51:21", maturing_period_in_english: "4 months in eng", maturing_period_in_french: "5 mnts in french", description: "hello this is cheese description in English">, :only_path=>false}
+default_url_options is passed options: {:action=>"edit", :use_route=>:edit_cheese_library, :controller=>"cheese_libraries", :id=>#<CheeseLibrary id: 2, cheese_title: "Cheese 1", wine_description: "hello this is cheese wine description in English", milk_type_id: 1, cheese_type_id: 2, region_id: 18, deleted_at: nil, cheese_milk: "pasturized milk", average_weight: "12.00", aoc: "Yes", fat_content: 13.0, created_at: "2010-05-03 17:51:21", updated_at: "2010-05-03 17:51:21", description_in_french: "hello this is cheese description in French", wine_description_in_french: "hello this is cheese wine description in French", milk_in_french: "pasturized milk in french", cheese_image_file_name: "mar24v.jpg", cheese_image_content_type: "image/jpeg", cheese_image_file_size: 150864, cheese_image_updated_at: "2010-05-03 17:51:20", wine_image_file_name: "mar30v.jpg", wine_image_content_type: "image/jpeg", wine_image_file_size: 242127, wine_image_updated_at: "2010-05-03 17:51:21", maturing_period_in_english: "4 months in eng", maturing_period_in_french: "5 mnts in french", description: "hello this is cheese description in English">, :only_path=>true}
+default_url_options is passed options: {:action=>"show", :use_route=>:cheese_library, :controller=>"cheese_libraries", :id=>#<CheeseLibrary id: 2, cheese_title: "Cheese 1", wine_description: "hello this is cheese wine description in English", milk_type_id: 1, cheese_type_id: 2, region_id: 18, deleted_at: nil, cheese_milk: "pasturized milk", average_weight: "12.00", aoc: "Yes", fat_content: 13.0, created_at: "2010-05-03 17:51:21", updated_at: "2010-05-03 17:51:21", description_in_french: "hello this is cheese description in French", wine_description_in_french: "hello this is cheese wine description in French", milk_in_french: "pasturized milk in french", cheese_image_file_name: "mar24v.jpg", cheese_image_content_type: "image/jpeg", cheese_image_file_size: 150864, cheese_image_updated_at: "2010-05-03 17:51:20", wine_image_file_name: "mar30v.jpg", wine_image_content_type: "image/jpeg", wine_image_file_size: 242127, wine_image_updated_at: "2010-05-03 17:51:21", maturing_period_in_english: "4 months in eng", maturing_period_in_french: "5 mnts in french", description: "hello this is cheese description in English">, :only_path=>false}
+default_url_options is passed options: {:action=>:logout, :controller=>:accounts, :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:about_us, :controller=>"about_us", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+default_url_options is passed options: {:locale=>"en", :action=>"index", :controller=>"cheese_libraries", :id=>nil, :only_path=>true}
+default_url_options is passed options: {:locale=>"fr", :action=>"index", :controller=>"cheese_libraries", :id=>nil, :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:retail_outlets, :controller=>"retail_outlets", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+Completed in 125ms (View: 70, DB: 9) | 200 OK [http://cheeseexpress.local/en/cheese_libraries]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CheeseLibrariesController#show (for 127.0.2.1 at 2010-05-04 00:45:54) [GET]
+  Parameters: {"id"=>"2", "locale"=>"en"}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCheeseLibrary Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `cheese_libraries`[0m
+  [4;36;1mCheeseLibrary Load (0.1ms)[0m   [0;1mSELECT * FROM `cheese_libraries` WHERE (`cheese_libraries`.`id` = 2) [0m
+  [4;35;1mMilkType Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `milk_types`[0m
+  [4;36;1mMilkType Load (0.1ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 1) [0m
+  [4;35;1mCheeseLibrary Load (0.1ms)[0m   [0mSELECT * FROM `cheese_libraries` WHERE (id <= '2' AND milk_type_id = 1) ORDER BY id desc[0m
+Rendering template within layouts/application
+Rendering cheese_libraries/show
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"new", :use_route=>:new_cheese_library, :controller=>"cheese_libraries", :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `milk_types` WHERE (`milk_types`.`id` = 1) [0m
+  [4;35;1mRegion Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `regions`[0m
+  [4;36;1mRegion Load (0.1ms)[0m   [0;1mSELECT * FROM `regions` WHERE (`regions`.`id` = 18) [0m
+  [4;35;1mCheeseType Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `cheese_types`[0m
+  [4;36;1mCheeseType Load (0.2ms)[0m   [0;1mSELECT * FROM `cheese_types` WHERE (`cheese_types`.`id` = 2) [0m
+default_url_options is passed options: {:action=>"edit", :use_route=>:edit_cheese_library, :controller=>"cheese_libraries", :id=>#<CheeseLibrary id: 2, cheese_title: "Cheese 1", wine_description: "hello this is cheese wine description in English", milk_type_id: 1, cheese_type_id: 2, region_id: 18, deleted_at: nil, cheese_milk: "pasturized milk", average_weight: "12.00", aoc: "Yes", fat_content: 13.0, created_at: "2010-05-03 17:51:21", updated_at: "2010-05-03 17:51:21", description_in_french: "hello this is cheese description in French", wine_description_in_french: "hello this is cheese wine description in French", milk_in_french: "pasturized milk in french", cheese_image_file_name: "mar24v.jpg", cheese_image_content_type: "image/jpeg", cheese_image_file_size: 150864, cheese_image_updated_at: "2010-05-03 17:51:20", wine_image_file_name: "mar30v.jpg", wine_image_content_type: "image/jpeg", wine_image_file_size: 242127, wine_image_updated_at: "2010-05-03 17:51:21", maturing_period_in_english: "4 months in eng", maturing_period_in_french: "5 mnts in french", description: "hello this is cheese description in English">, :only_path=>true}
+default_url_options is passed options: {:action=>"show", :use_route=>:cheese_library, :controller=>"cheese_libraries", :id=>#<CheeseLibrary id: 2, cheese_title: "Cheese 1", wine_description: "hello this is cheese wine description in English", milk_type_id: 1, cheese_type_id: 2, region_id: 18, deleted_at: nil, cheese_milk: "pasturized milk", average_weight: "12.00", aoc: "Yes", fat_content: 13.0, created_at: "2010-05-03 17:51:21", updated_at: "2010-05-03 17:51:21", description_in_french: "hello this is cheese description in French", wine_description_in_french: "hello this is cheese wine description in French", milk_in_french: "pasturized milk in french", cheese_image_file_name: "mar24v.jpg", cheese_image_content_type: "image/jpeg", cheese_image_file_size: 150864, cheese_image_updated_at: "2010-05-03 17:51:20", wine_image_file_name: "mar30v.jpg", wine_image_content_type: "image/jpeg", wine_image_file_size: 242127, wine_image_updated_at: "2010-05-03 17:51:21", maturing_period_in_english: "4 months in eng", maturing_period_in_french: "5 mnts in french", description: "hello this is cheese description in English">, :only_path=>false}
+default_url_options is passed options: {:action=>:logout, :controller=>:accounts, :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:about_us, :controller=>"about_us", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+default_url_options is passed options: {:locale=>"en", :action=>"show", :controller=>"cheese_libraries", :id=>"2", :only_path=>true}
+default_url_options is passed options: {:locale=>"fr", :action=>"show", :controller=>"cheese_libraries", :id=>"2", :only_path=>true}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:homes, :controller=>"homes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:recipes, :controller=>"recipes", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:cheese_libraries, :controller=>"cheese_libraries", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:events, :controller=>"events", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:retail_outlets, :controller=>"retail_outlets", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:partners, :controller=>"partners", :only_path=>false}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {}
+default_url_options is passed options: {:action=>"index", :use_route=>:contact_us, :controller=>"contact_us", :only_path=>false}
+Completed in 102ms (View: 73, DB: 7) | 200 OK [http://cheeseexpress.local/en/cheese_libraries/2]
