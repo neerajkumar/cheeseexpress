@@ -16,7 +16,7 @@
 		</tr>
 		<tr>
 			<td colspan="3">
-				<% form_for (@recipe,{:action => "update"}, :html=> {:multipart=>true}, :method => 'put') do |f| -%>
+				<% form_for (@recipe, :url => {:action => "update", :id => @recipe.id}, :html=> {:multipart=>true}, :method => 'put') do |f| -%>
 				  <%=  render :partial => 'form', :locals => { :f => f, :button_text => (t 'New_cheese.save')} -%>
 				<% end %>
 			</td>
